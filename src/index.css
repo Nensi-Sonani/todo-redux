@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #e3e9ff;
+}
+
+.todo{
+  font-family: 'Oswald', sans-serif;
+  background-color: #af7eeb;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  padding:5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+}
+.main-div{
+  margin-top: 100px;
+}
+
+input{
+  padding: 5px 10px 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 100%;
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+  color: grey;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 20px;
+}
+
+.add{
+  padding: 6px 115px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 20px;
+  background-color: white;
+  font-family: 'Oswald', sans-serif;
+  color: grey;
+  font-size: 18px;
+  
+}
+
+::placeholder{
+  color: grey;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+h3{
+  color: white;
+  text-transform: capitalize;
+  background-color: #af7eeb;
+  /* margin: 0px 700px 20px 700px; */
+  padding: 8px 45px;
+  border-radius: 20px;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.divs{
+  background-color: white;
+  padding: 25px;
+  margin: 20px;
+  width: 100%;
+  border-radius: 20px;
+}
+.divs span {
+    padding: 10px;
+    border-radius: 20px;
+}
+.display{
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   gap: 20px;
+}
+.delete {
+  padding: 10px 40px;
+  margin: 20px -30px 10px 16px;
+  border-radius: 20px;
+  border: none;
+  font-family: 'Oswald', sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: white;
+  background-color: rgb(97, 97, 221);
+}
